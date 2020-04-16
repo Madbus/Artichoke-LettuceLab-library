@@ -1,3 +1,16 @@
+
+/*
+Artichoke LettuceLab Library
+Header file
+############################
+
+Version 1.0
+For lettuceLab motor light and sensor controller
+Compatible with arduino mega
+
+Author:
+Nikolai Patrick 2020
+*/
 #ifndef lettucelab_h
 #define lettucelab_h
 
@@ -37,6 +50,7 @@ class lights
 //    void rightHeadLight();
 //    void leftTailLight();
 //    void righTailLight();
+//    void indicatorBlink(); - auto-blink
     void HeadLightsOn(int headbrightness);
     void HeadLightsOff();
     void TailLightsOn(int tailbrightness);
