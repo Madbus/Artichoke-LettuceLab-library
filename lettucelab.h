@@ -13,11 +13,11 @@ class wheels
 {
   public:
     void disable();
-    void left();
-    void right();
-    void forward();
-    void backward();
-    void diceRoll();
+    void left(int LeftLength, int LeftSpeed);
+    void right(int RightLength, int RightSpeed);
+    void forward(int ForwardLength, int ForwardSpeed);
+    void backward(int BackwardLength, int BackwardSpeed);
+    void leftOrRight(int LeftOrRightSpeed);
   private:
     int _DevisedLeft;
     int _DevisedForward;
@@ -29,12 +29,18 @@ class wheels
 class lights
 {
   public:
-    void leftIndicator();
-    void rightIndicator();
-    void leftHeadLight();
-    void rightHeadLight();
-    void leftTailLight();
-    void righTailLight();
+    void LightsOff();
+    void LightsOn(int allbrightness);
+//future use:
+//    void rightIndicator();
+//    void leftHeadLight();
+//    void rightHeadLight();
+//    void leftTailLight();
+//    void righTailLight();
+    void HeadLightsOn(int headbrightness);
+    void HeadLightsOff();
+    void TailLightsOn(int tailbrightness);
+    void TailLightsOff();
   private:
     int _LeftHeadLight = 4;
     int _RightHeadLight = 13;
