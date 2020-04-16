@@ -5,7 +5,9 @@
 
 class lettucelab
 {
-  void begin();
+  public:
+    void begin();
+  private:
 };
 class wheels
 {
@@ -20,12 +22,14 @@ class wheels
 
 class lights
 {
-  void leftIndicator();
-  void rightIndicator();
-  void leftHeadLight();
-  void rightHeadLight();
-  void leftTailLight();
-  void righTailLight();
+  public:
+    void leftIndicator();
+    void rightIndicator();
+    void leftHeadLight();
+    void rightHeadLight();
+    void leftTailLight();
+    void righTailLight();
+  private:
 };
 
 #endif
