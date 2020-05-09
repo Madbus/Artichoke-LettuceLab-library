@@ -37,6 +37,8 @@ class wheels
     int _DevisedBackward;
     int _DevisedRight;
     int _DiceRoll;
+    int _DiceDeviseLeft;
+    int _DiceDeviseRight;
 };
 
 class lights
