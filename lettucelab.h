@@ -26,7 +26,7 @@ class wheels
 {
   public:
     void disable();
-    void left(int LeftLength, int LeftSpeed);:
+    void left(int LeftLength, int LeftSpeed);
     void right(int RightLength, int RightSpeed);
     void forward(int ForwardLength, int ForwardSpeed);
     void backward(int BackwardLength, int BackwardSpeed);
