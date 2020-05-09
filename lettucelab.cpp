@@ -26,7 +26,7 @@ wheels::diasble()
   digitalWrite(9, LOW); //D9 - right backward
   digitalWrite(6, LOW); //D6 - left backward
   digitalWrite(5, LOW); //D5 - left forward
-  Serial.print("motors disabled");
+  Serial.print("motors disabled");:
 }
 
 wheels::forward(int ForwardLength, int ForwardSpeed)
