@@ -44,10 +44,19 @@ The library is compatible with:
 
 ## Diagram and pin despcription
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+|Arduino pin |Description   | Associated library class |
+| -----------| -----------  |--------------------------|
+|32          |Buzzer        |`buzzer();`               |
+|25          |Led 1         |`LED();`                  |
+|27          |Led 2         |`LED();`                  |
+|29          |Led 3         |`LED();`                  |
+|31          |Led 4         |`LED();`                  |
+|33          |Led 5         |`LED();`                  |
+|4           |Left headlight||
+||||
+||||
+||||
+
 
 
 
