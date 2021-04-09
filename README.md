@@ -57,7 +57,6 @@ The library is compatible with:
 ||||
 ||||
 
-doog
 
 
 
